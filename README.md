@@ -94,6 +94,21 @@ El script genera un nuevo archivo (``CONSOLIDADO_COMPLETADO.xlsx``) en lugar de 
 
 El script no maneja formatos de celdas complejos, fórmulas o macros al copiar datos; solo copia los valores de las celdas.`
 
+# autocompletar_consolidado_v1.0
+## Descripción
+
+Este script de Python automatiza el proceso de consolidar información en un archivo Excel, sin la necesidad de múltiples archivos Excel donde obtener información.
+
+modificamos las celdas especificas para añadir la ruta especifica al dato del archivo especifico que necesitamos obtener.
+
+Dado a la cantidad de rutas especificas diferentes, se utiliza este script para insertar las funciones especificas en cada celda de forma automática, generando un **nuevo archivo consolidado** con los datos actualizados.
+
+### Ejecutar el Script (Python)
+
+```bash
+python autocompletar_consolidado_v1.0.py
+```
+
 ### Autor
 * Sebastián Rodríguez
 
